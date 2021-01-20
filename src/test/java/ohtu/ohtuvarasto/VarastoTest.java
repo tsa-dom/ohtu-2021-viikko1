@@ -113,6 +113,6 @@ public class VarastoTest {
     }
 
     @Test
-    public void stringToStringMerkkijonoEsitysOikea() { assertEquals("saldo = 4.0, vielä tilaa 6.0", varastoSaldolla.toString());}
+    public void stringToStringMerkkijonoEsitysOikea() { assertEquals("saldo = 5.0, vielä tilaa 6.0", varastoSaldolla.toString());}
 
 }
