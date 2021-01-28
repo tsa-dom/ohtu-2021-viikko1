@@ -30,8 +30,7 @@ public class Varasto {
     private double validiTilavuus(double tilavuus) {
         if (tilavuus > 0.0) {
             return tilavuus;
-        } else
-            {// virheellinen, nollataan
+        } else {// virheellinen, nollataan
             return 0.0;  // => käyttökelvoton varasto
         }
     }
